@@ -1,0 +1,2 @@
+[NAME = file_test_2, ADDRESS = b-144 jaipur rajasthan, MOBILE NUMBER = 1234, IMAGE REFERENCE = abc_file_tests/alo, DATE OF BIRTH = 2020-12-06, EMAIL = two@gmail.com, GROUP NAME = relatives]
+[NAME = testUpdate, ADDRESS = test address, MOBILE NUMBER = 2546, IMAGE REFERENCE = abcUpdate/image.jpg, DATE OF BIRTH = 2020-11-12, EMAIL = test_update@gmail.com, GROUP NAME = relatives]
