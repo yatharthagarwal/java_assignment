@@ -1,0 +1,8 @@
+Group Name :personal friends, Number of contacts :3
+Name :ram , Mobile :3245
+Name :file_test_4 , Mobile :123456
+Name :yatharth , Mobile :1234567
+Group Name :relatives, Number of contacts :2
+Name :file_test_2 , Mobile :1234
+Name :testUpdate , Mobile :2546
+Group Name :professional friends, Number of contacts :0

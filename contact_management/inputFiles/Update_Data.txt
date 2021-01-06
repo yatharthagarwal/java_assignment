@@ -1,0 +1,2 @@
+file_test_1,s-23 jaipur rajasthan,123,abc_file_tests/alo,2020-12-06,one@gmail.com,personal friends
+file_test_3,c-144 jaipur rajasthan,12345,abc_file_tests/alo,2020-12-06,three@gmail.com,relatives
