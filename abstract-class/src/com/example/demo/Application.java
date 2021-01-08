@@ -9,6 +9,8 @@ public class Application {
 	public static void main(String[] args) {
 		
 		// superType = subType => always allowed
+		
+		System.out.println("Welcome");
 		BankAccount account1 = new SavingsAccount(9833,"Ramesh",1000,"nalini");
 		
 		account1.deposit(1000000);
