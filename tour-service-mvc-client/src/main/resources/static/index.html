@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  
+<script type="text/javascript">
+	$(function(){
+		/*function print(data){
+			$.each(data,function(key,value){
+				var row = $('<tr/>');
+				var column = "<td>"+value.tourId+"</td>"+
+						     "<td>" +value.tourName+"</td>"+
+								"<td>"+ value.cost+"</td>"+
+								"<td>"+ value.duration+"</td>";
+								
+				var markup = row.append(column);
+				$('#tourTable').append(markup);
+			})
+		}*/
+		var config = {
+				url : 'http://localhost:8080/api/v1/tours/',
+				method:'GET',
+				success:function(resp){ console.log(resp)},
+				failure:function(resp){ console.log(console.log(resp))}
+		}
+		$.ajax(config)
+	});
+	
+</script>  
+</head>
+<body>
+<h2>Sai Tour</h2>
+<a href="tour">Add Tour</a>
+<a href="updateTour">Update Tour</a>
+<a href="deleteTour">Delete Tour</a>
+<table id="tourTable">
+	
+</table>
+</body>
+</html>
